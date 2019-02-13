@@ -1,3 +1,7 @@
+$(window).on('load', function() {
+	$(".loader").delay(400).fadeOut("slow");
+});
+
 $(document).ready(function () {
 	$("#down").on("click", function(event) {
 		event.preventDefault();
@@ -6,12 +10,23 @@ $(document).ready(function () {
 		$('body,html').animate({scrollTop: top}, 1200);
 	});
 
+	$('.toggle_menu').on('click', function(event) {
+		event.preventDefault();
+		$('.menu_line').toggleClass('open_menu')
+	});
+
+	$('.close_menu, #main_menu>li>a').on('click', function(event) {
+		event.preventDefault();
+		$('.menu_line').removeClass('open_menu');
+	});
+
 	$("#main_menu>li>a").on("click", function(event) {
 		event.preventDefault();
 		var id 	= $(this).attr('href'),
-			top = $(id).offset().top - 56;
+			top = $(id).offset().top - 46;
 		$('body,html').animate({scrollTop: top}, 1200);
 	});
+
 
 	$("#main_menu li").on("click", function() {
 		$("#main_menu li").removeClass()
@@ -19,7 +34,7 @@ $(document).ready(function () {
 	});
 
 	$(window).scroll(function() {
-	    var windscroll = $(window).scrollTop();
+	    var windscroll = $(window).scrollTop()
 	    if (windscroll >= 100) {
 	        $('section').each(function(i) {
 	            if ($(this).position().top <= windscroll + 56) {

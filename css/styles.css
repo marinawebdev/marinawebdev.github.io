@@ -17,6 +17,17 @@ body {
   color: #38181d;
   font-size: 18px; }
 
+.loader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  background: none repeat scroll 0 0 #fff;
+  z-index: 1000; }
+
 header {
   height: 100vh;
   background-position: center;
@@ -84,6 +95,10 @@ header {
         .menu_line div ul li.active a, .menu_line div ul li a:hover {
           padding: 0 0 15px;
           border-bottom: 3px solid #38181d; }
+  .menu_line .toggle_menu {
+    display: none; }
+  .menu_line .close_menu {
+    display: none; }
 
 h1 {
   margin: 0;
@@ -289,3 +304,43 @@ h2 {
     margin: 85px 0; }
   #skill {
     padding-bottom: 100px; } }
+
+@media (max-width: 1069px) {
+  .menu_line h1, .menu_line #main_menu {
+    font-size: 14px; } }
+
+@media (max-width: 931px) {
+  .menu_line #main_menu {
+    display: none; }
+  .menu_line div .toggle_menu {
+    display: block;
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    color: #38181d; }
+  .menu_line div .close_menu {
+    display: none; }
+  .open_menu #main_menu {
+    display: block;
+    margin-top: 15px; }
+    .open_menu #main_menu li {
+      display: block;
+      width: 100%;
+      text-align: center;
+      padding: 10px;
+      position: relative;
+      top: 0;
+      right: 0; }
+      .open_menu #main_menu li a {
+        color: #38181d;
+        border: none; }
+      .open_menu #main_menu li.active a {
+        padding: 0 0 10px; }
+  .open_menu div .toggle_menu {
+    display: none; }
+  .open_menu div .close_menu {
+    display: block;
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    color: #38181d; } }
