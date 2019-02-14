@@ -318,7 +318,9 @@ h2 {
     top: 10px;
     right: 15px;
     color: #38181d;
-    font-size: 18px; }
+    font-size: 18px;
+    padding: 0;
+    border: none; }
   .menu_line div .close_menu {
     display: none; }
   .open_menu #main_menu {
@@ -345,4 +347,6 @@ h2 {
     right: 17px;
     display: block;
     color: #38181d;
-    font-size: 18px; } }
+    font-size: 18px;
+    padding: 0;
+    border: none; } }
