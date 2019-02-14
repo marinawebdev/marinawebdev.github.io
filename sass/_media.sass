@@ -1,0 +1,71 @@
+@media (max-width: 768px) 
+	.introduction
+		font-size: 14px
+		p
+			span
+				font-size: 30px
+
+@media (max-width: 375px) 
+	.introduction
+			font-size: 14px
+			p
+				span
+					font-size: 24px
+
+@media (min-width: 992px) 
+	#about, #portfolio
+			margin-bottom: 100px
+	h2
+		margin: 85px 0
+	#skill
+		padding-bottom: 100px
+
+@media (max-width: 1069px)
+	.menu_line
+		h1, #main_menu 
+			font-size: 14px
+
+@media (max-width: 931px)
+	.menu_line
+		#main_menu
+			display: none
+		div
+			.toggle_menu
+				display: block
+				position: absolute
+				top: 10px
+				right: 15px
+				color: $text-color
+				font-size: 18px 
+			.close_menu
+				display: none
+	
+	.open_menu
+		#main_menu
+			display: block
+			margin-top: 15px
+			li
+				display: block
+				width: 100%
+				text-align: center
+				padding: 10px
+				position: relative
+				top: 0
+				right: 0
+				a
+					color: $text-color
+					border: none
+				&.active a
+					padding: 0 0 10px
+		
+		div	
+			.toggle_menu
+				display: none
+			
+			.close_menu
+				position: absolute
+				top: 10px
+				right: 17px
+				display: block
+				color: $text-color
+				font-size: 18px		
