@@ -97,6 +97,8 @@ header {
           border-bottom: 3px solid #38181d; }
   .menu_line .toggle_menu {
     display: none; }
+    .menu_line .toggle_menu i {
+      text-rendering: optimizeLegibility; }
   .menu_line .close_menu {
     display: none; }
 
@@ -338,6 +340,8 @@ h2 {
         padding: 0 0 10px; }
   .open_menu div .toggle_menu {
     display: none; }
+    .open_menu div .toggle_menu i {
+      text-rendering: optimizeLegibility; }
   .open_menu div .close_menu {
     display: block;
     position: absolute;
