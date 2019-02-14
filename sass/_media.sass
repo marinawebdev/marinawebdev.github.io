@@ -33,10 +33,14 @@
 			.toggle_menu
 				display: block
 				position: absolute
-				top: 10px
+				top: 13px
 				right: 20px
-				color: $text-color
-
+				.line
+					display: block
+					background-color: $text-color
+					height: 3px
+					width: 30px
+					margin-bottom: 5px
 			.close_menu
 				display: none
 	
@@ -61,13 +65,21 @@
 		div	
 			.toggle_menu
 				display: none
-				i
-					text-rendering: optimizeLegibility
 			
 			.close_menu
-				display: block
 				position: absolute
-				top: 10px
-				right: 20px
-				color: $text-color
-		
+				top: 7px
+				right: 0
+				display: block
+				.line
+					display: block
+					position: absolute
+					top: 13px
+					right: 20px
+					background-color: $text-color
+					height: 3px
+					width: 30px
+					margin-bottom: 5px
+					transform: rotate(45deg)
+				.line+.line
+					transform: rotate(-45deg)		

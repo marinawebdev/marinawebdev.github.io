@@ -97,8 +97,6 @@ header {
           border-bottom: 3px solid #38181d; }
   .menu_line .toggle_menu {
     display: none; }
-    .menu_line .toggle_menu i {
-      text-rendering: optimizeLegibility; }
   .menu_line .close_menu {
     display: none; }
 
@@ -317,9 +315,14 @@ h2 {
   .menu_line div .toggle_menu {
     display: block;
     position: absolute;
-    top: 10px;
-    right: 20px;
-    color: #38181d; }
+    top: 13px;
+    right: 20px; }
+    .menu_line div .toggle_menu .line {
+      display: block;
+      background-color: #38181d;
+      height: 3px;
+      width: 30px;
+      margin-bottom: 5px; }
   .menu_line div .close_menu {
     display: none; }
   .open_menu #main_menu {
@@ -340,11 +343,20 @@ h2 {
         padding: 0 0 10px; }
   .open_menu div .toggle_menu {
     display: none; }
-    .open_menu div .toggle_menu i {
-      text-rendering: optimizeLegibility; }
   .open_menu div .close_menu {
-    display: block;
     position: absolute;
-    top: 10px;
-    right: 20px;
-    color: #38181d; } }
+    top: 7px;
+    right: 0;
+    display: block; }
+    .open_menu div .close_menu .line {
+      display: block;
+      position: absolute;
+      top: 13px;
+      right: 20px;
+      background-color: #38181d;
+      height: 3px;
+      width: 30px;
+      margin-bottom: 5px;
+      transform: rotate(45deg); }
+    .open_menu div .close_menu .line + .line {
+      transform: rotate(-45deg); } }
