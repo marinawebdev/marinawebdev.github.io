@@ -317,7 +317,8 @@ h2 {
     position: absolute;
     top: 2.5vh;
     right: 7vh;
-    color: #38181d; }
+    color: #38181d;
+    font-size: 18px; }
   .menu_line div .close_menu {
     display: none; }
   .open_menu #main_menu {
@@ -343,4 +344,5 @@ h2 {
     top: 2.5vh;
     right: 7.3vh;
     display: block;
-    color: #38181d; } }
+    color: #38181d;
+    font-size: 18px; } }
