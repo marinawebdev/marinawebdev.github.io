@@ -315,8 +315,8 @@ h2 {
   .menu_line div .toggle_menu {
     display: block;
     position: absolute;
-    top: 13px;
-    right: 20px; }
+    top: 1vh;
+    right: 2vh; }
     .menu_line div .toggle_menu .line {
       display: block;
       background-color: #38181d;
