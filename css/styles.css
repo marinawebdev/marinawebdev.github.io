@@ -315,8 +315,8 @@ h2 {
   .menu_line div .toggle_menu {
     display: block;
     position: absolute;
-    top: 2vh;
-    right: 3vh;
+    top: 2.5vh;
+    right: 7vh;
     color: #38181d; }
   .menu_line div .close_menu {
     display: none; }
@@ -340,7 +340,7 @@ h2 {
     display: none; }
   .open_menu div .close_menu {
     position: absolute;
-    top: 2vh;
-    right: 3.3vh;
+    top: 2.5vh;
+    right: 7.3vh;
     display: block;
     color: #38181d; } }
