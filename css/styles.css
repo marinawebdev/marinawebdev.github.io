@@ -315,14 +315,9 @@ h2 {
   .menu_line div .toggle_menu {
     display: block;
     position: absolute;
-    top: 1vh;
-    right: 2vh; }
-    .menu_line div .toggle_menu .line {
-      display: block;
-      background-color: #38181d;
-      height: 3px;
-      width: 30px;
-      margin-bottom: 5px; }
+    top: 2vh;
+    right: 3vh;
+    color: #38181d; }
   .menu_line div .close_menu {
     display: none; }
   .open_menu #main_menu {
@@ -345,18 +340,7 @@ h2 {
     display: none; }
   .open_menu div .close_menu {
     position: absolute;
-    top: 7px;
-    right: 0;
-    display: block; }
-    .open_menu div .close_menu .line {
-      display: block;
-      position: absolute;
-      top: 13px;
-      right: 20px;
-      background-color: #38181d;
-      height: 3px;
-      width: 30px;
-      margin-bottom: 5px;
-      transform: rotate(45deg); }
-    .open_menu div .close_menu .line + .line {
-      transform: rotate(-45deg); } }
+    top: 2vh;
+    right: 3.3vh;
+    display: block;
+    color: #38181d; } }
