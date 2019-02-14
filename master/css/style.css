@@ -367,8 +367,7 @@ button#dropdown_top:focus, button#dropdown_top:hover {
 }
 
 .advantages {
-    margin-right: 0;
-    margin-left: 0;
+    margin: 65px 0;
 }
 
 .advantages>div>div {
