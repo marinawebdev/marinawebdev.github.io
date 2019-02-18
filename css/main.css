@@ -132,14 +132,25 @@ h2 {
 .contant {
   margin-bottom: 40px; }
 
-#about button {
+#about .photo {
+  padding: 0;
+  margin: 10px 0 20px; }
+  #about .photo img {
+    width: 280px;
+    border-radius: 140px; }
+
+#about a {
+  text-decoration: none;
+  color: #38181d;
+  width: 200px;
   padding: 10px 30px;
   border: 1px solid #38181d;
   border-radius: 5px;
   background-color: transparent;
   font-weight: 700;
-  outline: none; }
-  #about button:hover {
+  outline: none;
+  overflow: hidden; }
+  #about a:hover {
     border: 1px solid #fff;
     background-color: #8d685f;
     color: #fff; }

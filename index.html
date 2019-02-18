@@ -5,8 +5,23 @@
 	<title>Junior Front-End Developer - Marina Vyskirka</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-	<link rel="stylesheet" href="/css/libs.css">
-	<link rel="stylesheet" href="css/main.css">
+	<script src="libs/jquery/jquery.min.js"></script>
+	<link rel="stylesheet" href="libs/bootstrap/bootstrap.min.css">
+	<link rel="stylesheet" href="libs/bootstrap/bootstrap-theme.min.css">
+	<script src="libs/bootstrap/bootstrap.min.js"></script>
+	<!-- Owl Carousel -->
+	<link rel="stylesheet" href="libs/owl/owl.carousel.min.css">
+	<link rel="stylesheet" href="libs/owl/owl.theme.default.min.css">
+	<script src="libs/owl/owl.carousel.min.js"></script>
+	<!-- WOW Animate -->
+	<link rel="stylesheet" href="libs/wow/animate.css">
+	<script src="libs/wow/wow.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
+    <!-- Parallax -->
+    <script src="libs/parallax/parallax.min.js"></script>
+    <link rel="stylesheet" href="css/main.css">
 	<script src="js/main.js"></script>
 </head>
 <body>
@@ -38,18 +53,16 @@
 			<h2 class="text-center text-uppercase wow fadeInUp">
 				Обо мне
 			</h2>
-			<div class="photo col-md-4">
-				img
+			<div class="photo text-center col-md-4 wow fadeInLeft">
+				<img src="img/myphoto.jpg" alt="My photo">
 			</div>
-			<div class="contant col-offset-md-8 col-md-8 wow fadeInUp">
+			<div class="contant col-md-8 wow fadeInUp">
 				<p>Мне 22 года. Живу я в Харькове. В декабре прошлого года окончила Харьковский национальный экономический университет им. Семена Кузнеца и получила диплом магистра по специальности "Менеджмент инновационной деятельности".</p>
 				<p>Недавно заинтересовалась веб-разработкой и изучила курс "Front-End (Верстка: HTML+CSS)" в Ukrainian IT School.</p>
 				<p>Имею опыт коммерческой разработки проекта, в котором реализована верстка с использованием Bootstrap, CSS-анимаций, прелоадером (jQuery), плагинами Animate.css и Owl-Carousel.</p>
 				<p>Сейчас я в поиске работы и коллектива, где я смогу укрепить уже имеющиеся навыки и развиваться в сфере веб-разботки. Могу рассмотреть предложения по удаленной работе.</p>
 			</div>
-			<button class="center-block wow fadeInUp">
-				Мое резюме
-			</button>
+			<a href="https://goo.gl/UcX4kc" class="text-center center-block wow fadeInUp" target="_blank">Мое резюме</a>
 		</div>
 	</section>
 	<section id="skill">
@@ -112,7 +125,7 @@
 				<h2 class="text-center text-uppercase wow fadeInUp">
 					Связаться со мной
 				</h2>
-				<form class="col-sm-offset-3 col-sm-6 col-md-offset-3 col-sm-6" action="#">
+				<form class="col-sm-offset-3 col-sm-6 col-md-offset-3 col-sm-6" action="https://formspree.io/marina.vyskirka@gmail.com" method="POST">
 			    	<input class="wow fadeInUp" type="text" placeholder="Имя" required>
 			    	<input class="wow fadeInUp" type="email" placeholder="E-mail" required>
 			    	<textarea class="wow fadeInUp" name="mess" placeholder="Сообщение" required></textarea>
