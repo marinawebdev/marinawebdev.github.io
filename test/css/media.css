@@ -1,0 +1,51 @@
+@media (max-width: 368px) {
+	.wrapper {
+		margin-left: 7px;
+		margin-right: 7px;
+	}
+}
+
+@media (min-width: 460px) {
+	.response {
+		margin-top: 0;
+		float: right;
+		text-align: right;
+	}
+
+	h4 {
+		margin-bottom: 20px;
+	}
+}
+
+@media (min-width: 515px) {
+	h1 {
+		font-size: 20px;
+		font-weight: 700;
+		margin: 10px 0;
+	}
+
+	h2 {
+		font-size: 14px;
+		color: #808080;
+		font-weight: 400;
+		margin-bottom: 10px;
+	}
+
+	.serv {
+		font-size: 15px;
+		padding: 10px 5px 5px 70px;
+	}
+
+	h3 {
+	    font-size: 14px;
+	    padding-right: 35px;
+	}
+
+	.services span {
+	    padding-right: 35px;
+	}
+
+	.services p span {
+		padding-right: 45px;
+	}
+}
