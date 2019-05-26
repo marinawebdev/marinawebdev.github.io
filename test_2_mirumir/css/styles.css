@@ -1,0 +1,98 @@
+@font-face {
+	font-family:'rubik_light';
+	src:url(../fonts/Rubik/RubikLight/Rubik-Light.eot);
+	src:url(../fonts/Rubik/RubikLight/Rubik-Light.eot?#iefix) format("embedded-opentype");
+	src:url(../fonts/Rubik/RubikLight/Rubik-Light.woff) format("woff");
+	font-weight: 400;
+	font-style: normal
+}
+
+@font-face {
+	font-family:'rubik_medium';
+	src:url(../fonts/Rubik/RubikMedium/Rubik-Medium.eot);
+	src:url(../fonts/Rubik/RubikMedium/Rubik-Medium.eot?#iefix) format("embedded-opentype");
+	src:url(../fonts/Rubik/RubikMedium/Rubik-Medium.woff) format("woff");
+	font-weight: 400;
+	font-style: normal
+}
+
+body {
+	background-color: #F2F2F2;
+	font-family: 'rubik_medium';
+}
+
+h1 {
+	text-transform: uppercase;
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+.table {
+	margin: 0 auto;
+	width: 1200px;
+}
+
+.table tbody tr th {
+	font-size: 30px;
+	text-transform: uppercase;
+	width: 25%;
+}
+
+.table tbody tr td:first-child, table tbody tr th+td {
+	font-size: 18px;
+	font-weight: 700;
+	text-transform: uppercase;
+	width: 40%;
+	border-top: none;
+}
+
+.table td {
+	padding: .1rem;
+}
+
+.table tr:first-child td:last-child, .table tr:nth-child(8) td:last-child {
+	border-top: 1px solid #dee2e6;
+}
+
+.table td:last-child {
+	font-family: 'rubik_light';
+	font-size: 14px;
+	border-top: none;
+}
+
+.close_btn {
+	border-top: 1px solid #dee2e6;
+	text-align: center;
+	margin: 15px auto;
+	padding-top: 15px;
+}
+
+.box_shadow {
+	box-shadow: 0 -40px 30px rgba(255,255,255,.5);
+    z-index: 1;
+    position: relative;
+}
+
+.close_btn a {
+	text-transform: uppercase;
+	text-decoration: none;
+	color: #000;
+	position: relative;
+}
+
+.close_btn>.show {
+	display: block;
+}
+
+.close_btn>.hide {
+	display: none;
+}
+
+.close_btn a:before {
+	content: "";
+	position: absolute;
+	top: -3px; left: 50%;
+	width: 30px; height: 2.5px;
+	margin-left: -15px;
+	background-color: #000;
+}

@@ -1,0 +1,9 @@
+@media (min-width: 768px) {
+	.desctop_row>th {
+		display: table-cell;
+	}
+
+	.tablet_mobile_row {
+		display: none;
+	}
+}
