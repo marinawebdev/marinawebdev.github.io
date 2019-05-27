@@ -245,7 +245,8 @@ h2 {
   position: absolute;
   outline: none;
   width: 30px;
-  height: 30px; }
+  height: 35px;
+  background-color: rgba(255,255,255,.5); }
   #portfolio .owl-theme div.owl-nav button.owl-prev:hover, #portfolio .owl-theme div.owl-nav button.owl-prev:focus, #portfolio .owl-theme div.owl-nav button.owl-next:hover, #portfolio .owl-theme div.owl-nav button.owl-next:focus {
     background-color: transparent; }
 
@@ -260,7 +261,7 @@ h2 {
 #portfolio .owl-theme div.owl-nav button.owl-next {
   top: 50%;
   margin-top: -15px;
-  right: 10px; }
+  right: 13px; }
 
 #contact {
   background-position: center;
