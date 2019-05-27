@@ -256,12 +256,12 @@ h2 {
 #portfolio .owl-theme div.owl-nav button.owl-prev {
   top: 50%;
   margin-top: -15px;
-  left: 10px; }
+  left: 15px; }
 
 #portfolio .owl-theme div.owl-nav button.owl-next {
   top: 50%;
   margin-top: -15px;
-  right: 13px; }
+  right: 15px; }
 
 #contact {
   background-position: center;
